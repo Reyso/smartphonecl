@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dados do Smartphone</title>
+</head>
+<body>
+    <h1>Dados do telefone móvel</h1>
+    <form action="/predict" method="POST">
+        <label for="battery_power">Battery Power (mAh):</label>
+        <input type="number" name="battery_power" id="battery_power"><br>
+
+        <label for="blue">Bluetooth:</label>
+        <input type="checkbox" name="blue" id="blue"><br>
+
+        <label for="clock_speed">Clock Speed:</label>
+        <input type="number" step="0.1"  name="clock_speed" id="clock_speed"><br>
+
+        <label for="dual_sim">Dual SIM:</label>
+        <input type="checkbox" name="dual_sim" id="dual_sim"><br>
+
+        <label for="fc">Front Camera (MP):</label>
+        <input type="number" step="0.1"  name="fc" id="fc"><br>
+
+        <label for="four_g">4G:</label>
+        <input type="checkbox" name="four_g" id="four_g"><br>
+
+        <label for="int_memory">Internal Memory (GB):</label>
+        <input type="number" step="0.1"  name="int_memory" id="int_memory"><br>
+
+        <label for="m_dep">Mobile Depth (cm):</label>
+        <input type="number" step="0.1"  name="m_dep" id="m_dep"><br>
+
+        <label for="mobile_wt">Weight of Mobile (g):</label>
+        <input type="number" step="0.1"  name="mobile_wt" id="mobile_wt"><br>
+
+        <label for="n_cores">Number of Cores:</label>
+        <input type="number" name="n_cores" id="n_cores"><br>
+
+        <label for="pc">Primary Camera (MP):</label>
+        <input type="number" step="0.1"  name="pc" id="pc"><br>
+
+        <label for="px_height">Pixel Resolution Height:</label>
+        <input type="number" step="0.1"  name="px_height" id="px_height"><br>
+
+        <label for="px_width">Pixel Resolution Width:</label>
+        <input type="number" step="0.1"  name="px_width" id="px_width"><br>
+
+        <label for="ram">RAM (MB):</label>
+        <input type="number" name="ram" id="ram"><br>
+
+        <label for="sc_h">Screen Height (cm):</label>
+        <input type="number" step="0.1"  name="sc_h" id="sc_h"><br>
+
+        <label for="sc_w">Screen Width (cm):</label>
+        <input type="number" step="0.1"  name="sc_w" id="sc_w"><br>
+
+        <label for="talk_time">Talk Time:</label>
+        <input type="number"  name="talk_time" id="talk_time"><br>
+
+        <label for="three_g">3G:</label>
+        <input type="checkbox" name="three_g" id="three_g"><br>
+
+        <label for="touch_screen">Touch Screen:</label>
+        <input type="checkbox" name="touch_screen" id="touch_screen"><br>
+
+        <label for="wifi">WiFi:</label>
+        <input type="checkbox" name="wifi" id="wifi"><br>
+        
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
