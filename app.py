@@ -5,7 +5,8 @@ import pandas as pd
 
 app = Flask(__name__)
 
-with open('/media/rey/Massa 2/academico/flask/data/modelo.pkl','rb') as file:
+# diretorio do modelo.pkl
+with open('/data/modelo.pkl','rb') as file:
     modelo = pickle.load(file)
 
 
